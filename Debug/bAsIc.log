@@ -1,0 +1,42 @@
+﻿Build started 1/05/2015 2:05:49 PM.
+     1>Project "F:\bAsIc\bAsIc.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./dep/inc /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>f:\basic\dep\vec2.h(27): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>f:\basic\solver.h(49): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\basic\solver.h(99): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\basic\solver.h(110): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\basic\solver.h(121): warning C4244: 'initializing' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>f:\basic\solver.h(122): warning C4244: 'initializing' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>f:\basic\source.cpp(30): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\basic\source.cpp(100): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>f:\basic\source.cpp(116): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>f:\basic\source.cpp(124): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>f:\basic\source.cpp(182): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\basic\source.cpp(188): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>f:\basic\source.cpp(191): warning C4305: '=' : truncation from 'double' to 'float'
+     1>f:\basic\source.cpp(205): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\basic\source.cpp(227): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\basic\source.cpp(234): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\basic\source.cpp(238): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\bAsIc\Debug\bAsIc.exe" /INCREMENTAL /NOLOGO /LIBPATH:./dep/lib opengl32.lib glew32.lib glew32s.lib glew32mx.lib glew32mxs.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\bAsIc\Debug\bAsIc.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\bAsIc\Debug\bAsIc.lib" /MACHINE:X86 Debug\render.obj
+         Debug\mat4.obj
+         Debug\shapes.obj
+         Debug\vec2.obj
+         Debug\vec3.obj
+         Debug\vec4.obj
+         Debug\Graph.obj
+         Debug\Source.obj
+         dep\lib\glew32.lib
+         dep\lib\glew32mx.lib
+         dep\lib\glew32mxs.lib
+         dep\lib\glew32s.lib
+         dep\lib\glfw3.lib
+         bAsIc.vcxproj -> F:\bAsIc\Debug\bAsIc.exe
+     1>Done Building Project "F:\bAsIc\bAsIc.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.75
